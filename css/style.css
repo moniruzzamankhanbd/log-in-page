@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(../img/windows-vista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#30393d;
+    background-blend-mode: overlay;
+}
+
+.form{
+    width: 395px;
+    height: 350px;
+    background: #2c343a;
+    background-blend-mode: overlay;
+    background-image: url(../img/windows-vista.jpg);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 4px 5px 23px 0px;
+}
+input{
+    padding: 15px;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+.user{
+    width: 365px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 10px;
+}
+.login{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background: #1872f2;
+    border-radius: 5px ;
+    color: #3dfffe;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 15px;
+
+}
+
+.lekha{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.lekha a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+hr{
+    border: 1px solid #dddfe2;
+    margin-bottom: 30px;
+}
+.ptn2{
+    width: 200px;
+    height: 50px;
+    background: #42b72a;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+     
+}
+.ptn2 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+}
